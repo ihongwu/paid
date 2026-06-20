@@ -1,2 +1,1 @@
-# paid
-iOS paid
+一个在IOS系统上获取paid的flutter插件

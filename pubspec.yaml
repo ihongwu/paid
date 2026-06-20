@@ -1,0 +1,23 @@
+name: paid
+description: A Flutter plugin for generating Pinduoduo Advertisement IDentifier (PAID) 1.4 for iOS attribution.
+version: 1.0.0
+homepage: https://example.com
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: PaidPlugin
